@@ -6,6 +6,9 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    // Bunch
+    viewBinding.enabled = true
+
     defaultConfig {
         applicationId "com.example.customtelegram"
         minSdkVersion 21
@@ -30,8 +33,17 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.3.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
+    // Navigation GitHub
+    implementation "com.mikepenz:materialdrawer:7.0.0"
+    // Required support lib modules
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.annotation:annotation:1.1.0"
+    implementation "com.google.android.material:material:1.1.0"
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+    // Add for NavController support
+    implementation "com.mikepenz:materialdrawer-nav:7.0.0"
+    // Other
+    testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
 }
