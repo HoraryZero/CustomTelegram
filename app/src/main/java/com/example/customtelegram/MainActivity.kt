@@ -85,18 +85,13 @@ class MainActivity : AppCompatActivity() {
                     .withName("Настройки")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_settings),
-                PrimaryDrawerItem().withIdentifier(107)
-                    .withIconTintingEnabled(true)
-                    .withName("Создать группу")
-                    .withSelectable(false)
-                    .withIcon(R.drawable.ic_menu_create_groups),
                 DividerDrawerItem(),
-                PrimaryDrawerItem().withIdentifier(108)
+                PrimaryDrawerItem().withIdentifier(107)
                     .withIconTintingEnabled(true)
                     .withName("Пригласить друзей")
                     .withSelectable(false)
                     .withIcon(R.drawable.ic_menu_invate),
-                PrimaryDrawerItem().withIdentifier(101)
+                PrimaryDrawerItem().withIdentifier(108)
                     .withIconTintingEnabled(true)
                     .withName("Вопросы о приложении")
                     .withSelectable(false)
